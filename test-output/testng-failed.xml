@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="Test(failed)">
+    <classes>
+      <class name="handlingTabs.HandlingTab">
+        <methods>
+          <include name="handlingTab"/>
+        </methods>
+      </class> <!-- handlingTabs.HandlingTab -->
+      <class name="windowHandling.WindowHandling">
+        <methods>
+          <include name="aboutUs"/>
+        </methods>
+      </class> <!-- windowHandling.WindowHandling -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
