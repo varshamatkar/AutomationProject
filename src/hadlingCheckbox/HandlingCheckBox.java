@@ -27,6 +27,9 @@ public class HandlingCheckBox {
 		checkbox.get(i).click();
 		Thread.sleep(2000);
 	}
+	for(WebElement k:checkbox) {
+		k.clear();
+	}
 
 	}
 

@@ -87,13 +87,13 @@ Thread.sleep(2000);
 //    }
     
     
-    for(WebElement dropdowns: optionsoFDropDown) {
-    dropdowns.click();
-    
-    Thread.sleep(2000);
-   
-    }
-    
+//    for(WebElement dropdowns: optionsoFDropDown) {
+//    dropdowns.click();
+//    
+//    Thread.sleep(2000);
+//   
+//    }
+//    
     
     
 	
